@@ -1,0 +1,83 @@
+[
+  {
+    "PlayerName": "Shakib Al Hasan",
+    "Playerimg": "https://media.crictracker.com/media/attachments/1696748634550_Shakib-Al-Hasan.jpeg",
+    "origin": "Bangladesh",
+    "PlayerType": "All-Rounder",
+    "bowlingstyle": "Left-arm Orthodox",
+    "battingstyle": "Left-handed",
+    "price": 100
+  },
+  {
+    "PlayerName": "Virat Kohli",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "India",
+    "PlayerType": "Batter",
+    "bowlingstyle": "Right-arm Medium",
+    "battingstyle": "Right-handed",
+    "price": 200
+  },
+  {
+    "PlayerName": "Babar Azam",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "Pakistan",
+    "PlayerType": "Batter",
+    "bowlingstyle": "Right-arm Off Break",
+    "battingstyle": "Right-handed",
+    "price": 300
+  },
+  {
+    "PlayerName": "Jasprit Bumrah",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "India",
+    "PlayerType": "Bowler",
+    "bowlingstyle": "Right-arm Fast",
+    "battingstyle": "Right-handed",
+    "price": 400
+  },
+  {
+    "PlayerName": "Rashid Khan",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "Afghanistan",
+    "PlayerType": "Bowler",
+    "bowlingstyle": "Right-arm Leg Break",
+    "battingstyle": "Right-handed",
+    "price": 500
+  },
+  {
+    "PlayerName": "Ben Stokes",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "England",
+    "PlayerType": "All-Rounder",
+    "bowlingstyle": "Right-arm Fast Medium",
+    "battingstyle": "Left-handed",
+    "price": 600
+  },
+  {
+    "PlayerName": "Jos Buttler",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "England",
+    "PlayerType": "Wicket-Keeper Batter",
+    "bowlingstyle": "Right-arm Medium",
+    "battingstyle": "Right-handed",
+    "price": 700
+  },
+  {
+    "PlayerName": "Trent Boult",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "New Zealand",
+    "PlayerType": "Bowler",
+    "bowlingstyle": "Left-arm Fast",
+    "battingstyle": "Left-handed",
+    "price": 800
+  },
+  {
+    "PlayerName": "Trent Boult",
+    "Playerimg": "https://wallpapers.com/images/featured/virat-kohli-pictures-yc8dfpcjssp3s4se.jpg",
+    "origin": "New Zealand",
+    "PlayerType": "Bowler",
+    "bowlingstyle": "Left-arm Fast",
+    "battingstyle": "Left-handed",
+    "price": 900
+  }
+]
