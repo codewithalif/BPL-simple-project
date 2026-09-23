@@ -8,12 +8,15 @@ interface PlayersProps{
     PlayersPromise:Promise<IPlayer[]>
     coin:number;
     setCoin:Dispatch<SetStateAction<number>> ;
+    selectedPlayers:IPlayer[]
+setselectedPlayers:Dispatch<SetStateAction<IPlayer[]>>
 }
 
 const Players = ({PlayersPromise, coin, setCoin }:PlayersProps) => {
     const Players = use(PlayersPromise)
 
-    const [buttonType, setbuttonType] = useState("available") // available or selected
+    const [buttonType, setbuttonType] = useState<"available" | "selected">("available") // available or selected
+    const [selectedPlayers, setselectedPlayers] = useState<IPlayer[]>([]);
 
     // console.log(buttonType);
 
@@ -36,7 +39,7 @@ const Players = ({PlayersPromise, coin, setCoin }:PlayersProps) => {
             </div>
 
 
-           { buttonType === "available"? <AvailablePlayers Players={Players} coin={coin} setCoin= {setCoin} ></AvailablePlayers> : <SelectedPlayers></SelectedPlayers>}
+           { buttonType === "available"? <AvailablePlayers Players={Players} coin={coin} setCoin= {setCoin} selectedPlayers={selectedPlayers} setselectedPlayers={setselectedPlayers} ></AvailablePlayers> : <SelectedPlayers selectedPlayers={selectedPlayers} setselectedPlayers={setselectedPlayers} coin={coin} setCoin= {setCoin} ></SelectedPlayers>}
         </div>
     );
 };
